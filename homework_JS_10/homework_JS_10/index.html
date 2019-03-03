@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="DB-work">
+        <div class="DB container">
+            <div class="DB__all-users">
+                <button class="DB__all-users__btn btn">Get All Users</button>
+                <table class="DB__all-users__table-header">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                        </tr>
+                     </table>
+                <table class="DB__all-users__table">
+
+                </table>
+            </div>
+            <div class="DB__user-options">
+                <div class="DB__user-options__find user-options">
+                    <form class="find-user">
+                        <input class="find-user__input" type="text" placeholder="Type ID">
+                        <button class="find-user__btn btn" type="submit">Find User</button>
+                    </form>
+                    <p class="find-user__result"></p>
+                </div>
+                <div class="DB__user-options__add user-options">
+                    <form class="add-user">
+                        <input type="text" class="add-user__input-name" placeholder="Enter youre name">
+                        <input type="text" class="add-user__input-age" placeholder="Enter youre age">
+                        <button class="add-user__btn btn" type="submit">Add User</button>
+                    </form>
+                    <p class="add-user__result"></p>
+                </div>
+                <div class="DB__user-options__remove user-options">
+                    <form class="remove-user">
+                        <input type="text" class="remove-user__input" placeholder="Enter User ID">
+                        <button class="remove-user__btn btn" type="submit">Delete User</button>
+                        <p class="remove-user__result"></p>
+                    </form>
+                </div>
+                <div class="DB__user-option__update user-options">
+                    <form class="update-user">
+                        <input type="text" class="update-user__input-getID" placeholder="Enter youre ID">
+                        <input type="text" class="update-user__input-newName" placeholder="Type new name">
+                        <input type="text" class="update-user__input-newAge" placeholder="Type new age">
+                        <button class="update-user__btn btn" type="submit">Update User</button>
+                        <p class="update-user__result"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

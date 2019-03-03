@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.DB-work{
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+}
+.DB {
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.DB__all-users,.DB__user-options{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 4px solid #5a6a8b;
+}
+.btn {
+    background-color: #ff7424;
+    border: 1px #fd0303 solid;
+    width: 130px;
+    height: 35px;
+    color: #202633;
+    font-weight: bolder;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+.user-options{
+    background-color: #7a8596;
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    width:33%;
+}
+td{
+    width:33%;
+    background-color: #7a8596;
+    height: 30px;
+}
+input{
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+    padding: 5px;
+    height: 30px;
+}
+.find-user__result,.add-user__result,.remove-user__result,.update-user__result{
+    text-align: center;
+    background-color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+.correct{
+    color: #267526;
+}
+.incorrect{
+    color: #e00a0a;
+}
