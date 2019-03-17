@@ -109,14 +109,14 @@ form.addEventListener('submit', filterLaptops);
 function filterLaptops(e){
   e.preventDefault();
 
-function sample(key) {
+function sample(name) {
   if(name === 'size' || name === 'release_date'){
   return Array.from(form.querySelectorAll('input'))
-    .filter(item => item.key === key && item.checked)
+    .filter(item => item.name === name && item.checked)
     .map(item => Number(item.value));
   } else {
     return Array.from(form.querySelectorAll('input'))
-    .filter(item => item.key === key && item.checked)
+    .filter(item => item.name === name && item.checked)
     .map(item => (item.value));
   }
 }
