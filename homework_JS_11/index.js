@@ -1,5 +1,3 @@
-'use strict';
-
 const laptops = [
     {
       size: 13,
